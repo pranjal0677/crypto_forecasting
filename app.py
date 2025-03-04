@@ -18,7 +18,8 @@ class CryptoForecastingApp:
             'Ethereum': 'ETHUSDT',
             'Dogecoin': 'DOGEUSDT'
         }
-        self.available_models = ['Prophet', 'ARIMA', 'LSTM']
+        #self.available_models = ['Prophet', 'ARIMA', 'LSTM']
+        self.available_models = ['Prophet', 'ARIMA'] 
 
     def get_binance_data(self, symbol, start_date, end_date):
         try:
